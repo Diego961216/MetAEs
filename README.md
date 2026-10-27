@@ -1,13 +1,36 @@
 # MetAEs
 Metereological automatic estation 
 
-##Libraries
+## I2C Protocol 
+ SCL := serial clock Pin
+ SDA :=serial data pins
+ 
+https://docs.arduino.cc/learn/communication/wire/
 
-time / timeLibrary
+
+## Libraries
+
+## time / timeLibrary
 by michael Margolis
 link: [Documentation](https://playground.arduino.cc/Code/Time/)
+## Wire.h
+https://github.com/czukowski/Wire.h/tree/master
 
-#Arduino Uno WIFI 
+for I2C
+
+## BH1750 
+low fracuency irradiance
+https://github.com/claws/BH1750
+aplication example: https://www.studiopieters.nl/the-complete-guide-to-the-bh1750-digital-light-sensor/
+
+## GUVA s12SD
+UV rad
+https://github.com/ma2shita/GUVA-S12SD
+
+hay que cambiar el archivo .cpp para arreglar "arduino.h" → <Arduino.h>
+
+
+## Arduino Uno WIFI 
 Atmega328p
 wifi  ESP8266 + 8 Mb 
 
