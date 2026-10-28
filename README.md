@@ -29,6 +29,45 @@ https://github.com/ma2shita/GUVA-S12SD
 
 hay que cambiar el archivo .cpp para arreglar "arduino.h" → <Arduino.h>
 
+## LOG Data OPENLOG
+https://www.fredscave.com/interface/int-12openlog-data-logger.html
+
+#### Pins
+VCC : Power supply; 3.3V to 12V, preferably 3.3V or 5V.
+GND : Ground
+TXO : OpenLog's transmit pin. This must be cross connected to the Rx pin on the other device.
+RXI : OpenLog's receive pin. This must be cross connected to the Tx pin on the other device.
+GRN : Reset pin; when pulled low causes the OpenLog to reset to a state ready to receive data.
+BLK : Arduino specific pin; not used on other platforms such as the micro:bit.
+
+#### Led`s
+
+Status 1 LED : Used to display the UART serial activity.
+
+    This LED flashes each time data is transferred between the devices across the UART serial channel.
+    If the LED blinks three times on startup it means that the MicroSD card has failed to initialise.
+    
+Status 2 LED : This LED blinks when the OpenLog is writing its buffer to the MicroSD card. This happens very quickly.
+
+#### The OpenLog has two different user selectable file modes:
+
+    New File Logging
+        This mode creates a new file each time OpenLog powers up. The initial file is the LOG00000.txt noted above.
+        Each new log file increments the number; LOG00001.txt then LOG00002.txt and so on.
+        This logging file mode is the system default but can be changed in the config.txt file by the user - discussed below.
+    Append File Logging
+        This file creates a file called SEQLOG.txt if not already on the MicroSD card.
+        All data from the current session and all the following sessions will be appended to this single file.
+        This mode is user selectable by editing the config.txt file - discussed below.
+
+#### Configuration file
+
+The config.txt file created by the OpenLog on its very first power up contains two lines that can be edited with any text editor:
+
+9600,26,3,0,1,1,0
+baud,escape,esc#,mode,verb,echo,ignoreRX
+            
+
 
 ## Arduino Uno WIFI 
 Atmega328p
