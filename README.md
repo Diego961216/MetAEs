@@ -73,6 +73,10 @@ baud,escape,esc#,mode,verb,echo,ignoreRX
 Atmega328p
 wifi  ESP8266 + 8 Mb 
 
+## El arduino;
+https://www.instructables.com/UNO-R3-WIFI-ESP8266-CH340G-Arduino-and-WIFI-a-Vers/
+
+## Guía de uso
 driver para USB
 usb TTL CH340G
 
