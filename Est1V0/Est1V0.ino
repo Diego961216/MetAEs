@@ -77,18 +77,15 @@ void loop(){
   Serial.println(lux);
 
   openLog.print(hum);
-  delay(100);
+
   openLog.print(",");
   openLog.print(temp);
-  delay(1000);
 
   openLog.print(",");
   openLog.print(mV);
-  delay(1000);
-
+ 
   openLog.print(",");
   openLog.print(uv_index);
-  delay(1000);
 
   openLog.print(",");
   openLog.println(lux);
