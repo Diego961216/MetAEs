@@ -8,7 +8,7 @@ Metereological automatic estation
 https://docs.arduino.cc/learn/communication/wire/
 
 
-## Libraries
+# Libraries
 
 ## time / timeLibrary
 by michael Margolis
@@ -69,7 +69,7 @@ baud,escape,esc#,mode,verb,echo,ignoreRX
             
 
 
-## Arduino Uno WIFI 
+# Arduino Uno WIFI 
 Atmega328p
 wifi  ESP8266 + 8 Mb 
 
@@ -109,3 +109,7 @@ gestor de placa:
 https://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 (archivo, preferencias), luego intalar libreria esp8266 comunity
+
+# Posibles accesorios
+
+antena IPEx
