@@ -108,6 +108,13 @@ https://github.com/esp8266/Arduino/blob/master/libraries/ESP8266WiFi/examples/Wi
 gestor de placa:
 https://arduino.esp8266.com/stable/package_esp8266com_index.json
 
+# Futuras mejoras
+actualizar y mejorar sensores. 
+# Temperatura y presión
+AHT20 - BMP280 
+https://afel.cl/products/sensor-de-temperatura-humedad-y-presion-aht20-bmp280?variant=45125034410136&country=CL&currency=CLP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_term=&utm_campaign=@+Smart+Shopping+2&utm_source=adwords&utm_medium=ppc&hsa_acc=1808722794&hsa_cam=19569174895&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=19560974580&gbraid=0AAAAADBMsFR6T9sKQfgz5XM158ZvwtGDH&gclid=Cj0KCQiA5NXXBhDEARIsABAJhdK1r-GMnFQ2Yuf5W2gNxUkz8EMG09KeOVhyIBfLTNcUzyeRAYelhZgaAma2EALw_wcB 
+
+
 (archivo, preferencias), luego intalar libreria esp8266 comunity
 
 # Posibles accesorios
