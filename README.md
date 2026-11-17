@@ -29,6 +29,13 @@ https://github.com/ma2shita/GUVA-S12SD
 
 hay que cambiar el archivo .cpp para arreglar "arduino.h" → <Arduino.h>
 
+##AHT20 BMP280
+aht20 sensor temperatura y humedad
+https://github.com/adafruit/Adafruit_AHTX0
+
+bmp280 sensor temperatura y presion
+https://github.com/adafruit/adafruit_bmp280_library
+
 ## LOG Data OPENLOG
 https://www.fredscave.com/interface/int-12openlog-data-logger.html
 
